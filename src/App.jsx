@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import './App.css'
-import clockIcon from './assets/images.jpg'
+import './App.css';
+import clockIcon from './assets/images.jpg';
 import planning_schedule_concept from './assets/flat-design-content-management-system-illustrated 1.png';
 import ChatBubbleTwoToneIcon from '@mui/icons-material/ChatBubbleTwoTone';
 import meeting_icon from './assets/Ellipse 1.png';
