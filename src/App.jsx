@@ -27,8 +27,9 @@ function App() {
     <h3>What we Offer</h3>
 
       </div>
-<div className='row justify-content-center align-items-center' style={{padding:'32px'}}>
-  <div className='col-3'>
+<div className='container-fluid main-content ' style={{padding:'32px'}}>
+  <div className='row'>
+  <div className='col-sm-4'>
 <div className='card' style={{backgroundColor:'#F0F7FF'}}>
 <img src={meeting_icon} style={{background:'inherent'}} class="card-img-top" alt="..."/>
 <div className='card-body'>
@@ -39,7 +40,7 @@ function App() {
 </div>
 </div>
   </div>
-  <div className='col-3'>
+  <div className='col-sm-4'>
 
     <div className='card' style={{backgroundColor:"#DDEAFA"}}>
 <img src={chat_icon} className='card-img-top text-center'/>
@@ -51,7 +52,7 @@ function App() {
 </div>
     </div>
   </div>
-  <div className='col-3'>
+  <div className='col-sm-4'>
 
     <div className='card' style={{backgroundColor:"#94B5DD"}}>
       <img src={clock_icon} className='card-img-top' alt="project tracking" ></img>
@@ -63,6 +64,8 @@ function App() {
       </div>
     </div>
   </div>
+  </div>
+
 </div>
   </div>
 

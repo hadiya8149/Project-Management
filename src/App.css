@@ -74,4 +74,24 @@ p.card-text{
     animation: logo-spin infinite 20s linear;
   }
 }
+.main-content{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+}
+@media only screen and ((max-width:1025px)){
+  .col-sm-4{
+    flex:1 0 auto;
+    width:33%;
+  }
+}
+@media(max-width:768px){
+  .navbar-toggler{
+    z-index:1;
 
+  }
+  .row{
+    flex-direction:column;
+  }
+}
