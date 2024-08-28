@@ -102,3 +102,8 @@ button:focus-visible {
     margin:0 auto;
   } 
 }
+@media only screen and (max-width:500px){
+  a.navbar-brand{
+    margin:0 24px;
+  }
+}
