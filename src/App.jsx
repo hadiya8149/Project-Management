@@ -30,7 +30,7 @@ function App() {
 <div className='container-fluid main-content ' style={{padding:'32px'}}>
   <div className='row'>
   <div className='col-sm-4'>
-<div className='card' style={{backgroundColor:'#F0F7FF'}}>
+<div className='card card-features' style={{backgroundColor:'#F0F7FF'}}>
 <img src={meeting_icon} style={{background:'inherent'}} class="card-img-top" alt="..."/>
 <div className='card-body'>
   <h5 className='card-title'>In-built meeting room</h5>
@@ -42,7 +42,7 @@ function App() {
   </div>
   <div className='col-sm-4'>
 
-    <div className='card' style={{backgroundColor:"#DDEAFA"}}>
+    <div className='card card-features' style={{backgroundColor:"#DDEAFA"}}>
 <img src={chat_icon} className='card-img-top text-center'/>
 <div className='card-body'>
   <h5 className='card-title'>In-built Chat Room</h5>
@@ -54,7 +54,7 @@ function App() {
   </div>
   <div className='col-sm-4'>
 
-    <div className='card' style={{backgroundColor:"#94B5DD"}}>
+    <div className='card card-features' style={{backgroundColor:"#94B5DD"}}>
       <img src={clock_icon} className='card-img-top' alt="project tracking" ></img>
       <div className='card-body'>
         <h5 className='card-title'>Easy Project tracker</h5>

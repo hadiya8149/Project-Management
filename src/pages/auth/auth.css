@@ -1,0 +1,32 @@
+form{
+    /* height:600px; */
+    /* width:300px; */
+    text-align:left;
+    padding:16px;
+    margin:auto;
+}
+
+.card.card-login{
+    box-shadow:10px 10px 20px #DDEAFA;
+    width:400px;
+    padding:32px;
+}
+.signin{
+    width:100%;
+    background-color: #EEF5FD;
+    color:black;
+    box-shadow: inset -3px -4px 7px 2px #d1dbe6;
+}
+#emailLabel, #passwordLabel{
+    font-size:18px;
+    font-weight:400;
+}
+.forgot-password-link, .signup-link{
+    color:grey;
+}
+.forgot-password-link:hover, .signup-link:hover{
+    color:black;
+}
+/* .background-image{
+    background:url("../../assets/flat-design-content-management-system-illustrated 1.png")
+} */
