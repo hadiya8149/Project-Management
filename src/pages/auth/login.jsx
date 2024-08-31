@@ -4,9 +4,8 @@ import SignInWithGoogleButton from '../../components/ui/OAuth.jsx';
 import './auth.css';
 export default function Login() {
   return (
-    <div className='background-image'>
     
-    <div className="container  justify-content-center align-items-center">
+    <div className="container align-items-center justify-content-center">
       <nav className='navbar narbar-sm-expand navbar-light'>
 
 
@@ -48,9 +47,6 @@ export default function Login() {
 
       </div>
     </div>
-    {/* <img style={{position:'absolute',bottom: '-56px',
-    left: '-89px', height:'600px'}} src={planning_schedule_concept}></img> */}
 
-    </div>
   );
 }
