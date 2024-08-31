@@ -29,4 +29,30 @@ form{
 }
 /* .background-image{
     background:url("../../assets/flat-design-content-management-system-illustrated 1.png")
+}
+    
+input#InputEmail{
+    font-size:16px;
 } */
+@media only screen and (max-width:1024px){
+    .card.card-login{
+        width:350px;
+    }
+}
+@media only screen and (max-width:600px){
+    .card.card-login{
+        font-size:12px;
+        padding:8px;
+        width:300px;
+    }
+    #emailLabel, #passwordLabel{
+        font-size:14px;
+    }
+    input#InputEmail, input#InputPassword{
+        font-size:12px;
+        line-height:1.5;
+    }
+    button.btn.btn-light.signin{
+        font-size:12px;
+    }
+}
