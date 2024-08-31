@@ -13,10 +13,10 @@ function App() {
          <div className="background-container">
         <div className='d-flex container'>
          <div className="m-auto">
-         <h1 className='text-center' style={{fontWeight:'500px'}}>Manage your <br/> projects better</h1>
+         <h1 className='text-center banner-title' style={{fontWeight:'500px'}}>Manage your <br/> projects better</h1>
           </div>
           <div className='m-auto'>
-            <img alt="loading"src={planning_schedule_concept} style={{height:'40vh', width:'40vh'}}></img>
+            <img alt="loading"src={planning_schedule_concept} id='banner-image' style={{height:'40vh', width:'40vh'}}></img>
             </div> 
         </div>
       </div>

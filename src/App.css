@@ -95,3 +95,22 @@ p.card-text{
     flex-direction:column;
   }
 }
+@media only screen and (max-width:600px){
+  #banner-image{
+    display:none;
+  }
+  h1.banner-title{
+    font-size:16px;
+  }
+  
+.background-container::before {
+   width: 150px;
+   height:30%;
+}
+.background-container::after {
+  width:150px;
+}
+.background-container{
+  height:150px;
+}
+}

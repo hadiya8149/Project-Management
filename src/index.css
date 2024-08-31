@@ -41,19 +41,23 @@ a.nav-link{
 .get-started{
   position:relative;
   z-index:1;
+  margin-left: 32px;
+    margin-right: 0px;
+    padding: 0px;
   justify-content:center;
   align-items:center;
 
 }
 .get-started-link{
   margin-left: 25px;
-  /* margin-right: 25px; */
   background: white;
   border-radius: 18px;
   width: 150px;
-  height: 32px;
   color: black;
-  padding: 3px;
+  margin-right: 25px;
+  padding: 8px;
+  text-align: center;
+  height: 40px;
 }
 h1 {
   font-size: 3.2em;
