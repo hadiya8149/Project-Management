@@ -114,3 +114,14 @@ p.card-text{
   height:150px;
 }
 }
+
+.search{
+  border-radius:50px;
+  height:30px;
+}
+.sidebar{
+  width:280px;
+
+  height:100vh;
+  background:#243141;
+}
